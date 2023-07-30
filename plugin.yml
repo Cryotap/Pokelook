@@ -1,0 +1,18 @@
+name: Pokelook
+version: 1.0.0
+main: Cryotap\Pokelook\Main
+api: [5.0.0]
+author: Cryotap
+description: A PocketMine-MP plugin that looks up pokemon.
+
+commands:
+  pokelook:
+    description: Show pokemon data.
+    usage: /pokelook
+    permission: pokel.use
+    aliases: [pokel]
+
+permissions:
+  pokel.use:
+    description: Allows players to use the /pokelook
+    default: op
