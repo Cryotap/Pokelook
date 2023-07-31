@@ -5,6 +5,10 @@ Sometimes it shows the last result first, give the slider a little wiggle and it
 
 ![example](https://i.imgur.com/57c46Ob.png)
 
+[![](https://poggit.pmmp.io/shield.state/Pokelook)](https://poggit.pmmp.io/p/Pokelook)
+
+[![](https://poggit.pmmp.io/shield.api/Pokelook)](https://poggit.pmmp.io/p/Pokelook)
+
 ## Commands / Permissions
 /pokelook | pokel.use
 
