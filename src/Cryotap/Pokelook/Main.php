@@ -22,15 +22,15 @@ class Main extends PluginBase {
             if ($sender instanceof Player) {
                 if ($sender->hasPermission("pokel.use")) {
                     $this->openPokemonSearchForm($sender);
-					return true;
                 } else {
                     $sender->sendMessage(TF::RED . "You don't have permission to use this command.");
                 }
             } else {
                 $sender->sendMessage(TF::RED . "Please run this command in-game.");
-				return false;
             }
+		return true;
         }
+	    return false;
     }
 
     private function openPokemonSearchForm(Player $player): void {
