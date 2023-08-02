@@ -8,7 +8,6 @@ use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
 use pocketmine\http\HTTPException;
 use pocketmine\utils\TextFormat as TF;
-use jojoe77777\FormAPI\FormAPI;
 use Vecnavium\FormsUI\SimpleForm;
 use Vecnavium\FormsUI\CustomForm;
 
